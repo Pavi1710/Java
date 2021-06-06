@@ -1,0 +1,14 @@
+package basic;
+import java.util.Scanner;
+public class RTriangle {
+
+	public static void main(String[] args) {
+		int b,h;
+		Scanner scan=new Scanner(System.in);
+		b=scan.nextInt();
+		h=scan.nextInt();
+		System.out.println("Area="+((b*h)/2));
+		scan.close();
+	}
+
+}
