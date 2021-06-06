@@ -1,0 +1,23 @@
+package basic;
+
+public class primenum {
+
+	public static void main(String[] args) {
+		int n=31,i=2,r;
+		while(i<=n) {
+			r=n%i;
+			i=i+1;
+			if(r==0) {
+				System.out.println("Not a Prime number");
+				break;
+			}
+			else {
+				System.out.println("Prime number");
+				break;
+			}
+			
+		}
+
+	}
+
+}
