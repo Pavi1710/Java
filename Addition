@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Demo2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-    int a, b, sum;
+		
+    		int a, b, sum;
 		Scanner scan=new Scanner(System.in);
 		a=scan.nextInt();
 		b=scan.nextInt();
