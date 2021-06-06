@@ -1,0 +1,20 @@
+package basic;
+
+public class power {
+
+	public static void main(String[] args) {
+		int e=2,n=5,r=1,i=1;
+		if(n!=0) {
+		while(i<=n) {
+			r=e*r;
+			++i;
+		}
+		System.out.println(r);
+		}
+		else {
+			System.out.println(r);
+		}
+		
+	}
+
+}
