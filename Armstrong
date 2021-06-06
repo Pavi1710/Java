@@ -1,0 +1,24 @@
+package basic;
+
+public class Armstrong {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub 
+		int n=517,b,a=0;
+		b=n;
+		double r=0;
+		while(n!=0) {
+			a=n%10;
+			r=Math.pow(a,3)+r;
+			n=n/10;	
+		}
+		if(r==b) {
+			System.out.println("IT'S ARMSTRONG NUMBER");
+		}
+		else {
+			System.out.println("IT'S NOT ARMSTRONG NUMBER");
+		}
+
+	}
+
+}
